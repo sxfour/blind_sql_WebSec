@@ -4,5 +4,4 @@
 И так, что мы имеем...
 - Открытую уязвимость blind sql, проверка через подмену запроса (с содержанием печенек, в нашем случае на лабе, TrackingId=)
 
-![изображение](https://user-images.githubusercontent.com/112577182/205279918-9bf0fc5f-fbdd-49be-bbf6-11b58c1f1e72.png)
-
+![изображение](https://user-images.githubusercontent.com/112577182/205280024-fd59c249-ed4e-4d84-b79c-851da865f73c.png)
