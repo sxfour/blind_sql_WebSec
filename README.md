@@ -1,6 +1,6 @@
 # Blind SQL injection with time delays and information retrieval
 [RUS] Автоматизируем подбор blind sql, специально для Web_Security_Academy PortSwigger
-Попытаемся автоматизировать поиск  длинны пароля, а так же узнать сам пароль от admin account .
+Поиск  длинны пароля, а так же сам пароль от admin account .
 И так, что мы имеем...
 - Открытую уязвимость blind sql, проверка через подмену запроса (с содержанием печенек, в нашем случае на лабе, TrackingId=)
 
