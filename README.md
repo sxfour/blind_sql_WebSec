@@ -23,9 +23,10 @@ Injection:
 
 Перебераем весь созданный массив от 0 до 30
 ![изображение](https://user-images.githubusercontent.com/112577182/205287460-ffe03813-4c32-49c3-a3a8-1a9ddc7ed2a5.png)
+![изображение](https://user-images.githubusercontent.com/112577182/205287593-ecdd2e80-abdb-4272-8ca8-214ac2dfd0b3.png)
 
-![изображение](https://user-images.githubusercontent.com/112577182/205286910-0cd290c5-c7ff-46df-850a-008566adeee5.png)
 Добавляем +1 из-за разницы счёта с 0, дальше он начнется с 1.
+
 ![изображение](https://user-images.githubusercontent.com/112577182/205286948-bf50f165-14f7-4c61-888a-4f575ea8d9cf.png)
 
 - Формируем get запрос, два цикла, в обоих массивы, с нужными strings? numbers? всё нижний ряд. 
