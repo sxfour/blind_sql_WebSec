@@ -39,4 +39,6 @@ Injection:
 
 ![изображение](https://user-images.githubusercontent.com/112577182/205289256-71081848-c121-4a1c-8d48-63af01244c9b.png)
 
+![изображение](https://user-images.githubusercontent.com/112577182/205290108-6228537d-e949-4e12-ad9e-b238bb94dcad.png)
+
 Работает на одном потоке!!!
