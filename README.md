@@ -22,7 +22,7 @@ Injection:
 Первый этап:
 
 Перебераем весь созданный массив от 0 до 30
-![изображение](https://user-images.githubusercontent.com/112577182/205286802-3adb4044-ea16-43fc-8b5e-ac07bad428a6.png)
+![изображение](https://user-images.githubusercontent.com/112577182/205287460-ffe03813-4c32-49c3-a3a8-1a9ddc7ed2a5.png)
 
 ![изображение](https://user-images.githubusercontent.com/112577182/205286910-0cd290c5-c7ff-46df-850a-008566adeee5.png)
 Добавляем +1 из-за разницы счёта с 0, дальше он начнется с 1.
